@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="contanier">
+
+        <div class="box box1">
+            <img src="https://media.npr.org/assets/img/2014/08/07/monkey-selfie_custom-7117031c832fc3607ee5b26b9d5b03d10a1deaca-s1100-c50.jpg"
+                alt="">
+            <h3>Meymun</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eaque cum consequatur enim</p>
+            <button class="button button2">Sign in</button>
+            <button class="button button1">Sign up</button>
+        </div>
+
+
+   
+
+
+
+
+        <div class="box box1">
+            <img src="https://media.npr.org/assets/img/2014/08/07/monkey-selfie_custom-7117031c832fc3607ee5b26b9d5b03d10a1deaca-s1100-c50.jpg"
+                alt="">
+            <h3>Meymun</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eaque cum consequatur enim</p>
+            <button class="button button2">Sign in</button>
+            <button class="button button1">Sign up</button>
+
+
+    </div>
+
+
+
+  
+
+        <div class="box box1">
+            <img src="https://media.npr.org/assets/img/2014/08/07/monkey-selfie_custom-7117031c832fc3607ee5b26b9d5b03d10a1deaca-s1100-c50.jpg"
+                alt="">
+            <h3>Meymun</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eaque cum consequatur enim</p>
+            <button class="button button2">Sign in</button>
+            <button class="button button1">Sign up</button>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .contanier {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+    }
+
+    .box {
+        border: 1px solid black;
+        /* height: 130%; */
+        width: 250px;
+        border-radius:10px;
+        padding: 10px 0;
+    }
+
+    .box>img {
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+        /* margin-left: 60px; */
+    }
+
+    h3 {
+        font-family: arial;
+        /* margin-left: 90px; */
+    }
+
+     .button1{
+        border:1px solid transparent;
+        height:40px;
+        width:100px;
+        background-color:rgb(65, 150, 65);
+        margin-top:9px;
+        /* margin-left: 10px; */
+    }
+
+    .button2{
+        border:1px solid transparent;
+        height:40px;
+        width:100px;
+        background-color:rgb(16, 128, 16);
+        margin-top:9px;
+        /* margin-left: 10px; */
+    }
+
+
+@media screen and (min-width:300px) {
+    .contanier{
+        grid-template-columns: auto;
+    }
+
+
+}
+
+@media screen and (min-width:600px){
+    .contanier{
+        grid-template-columns: auto auto;
+
+    }
+}
+
+@media screen and (min-width:800px){
+    .contanier{
+        grid-template-columns: auto auto auto;
+
+    }
+}
+</style>
